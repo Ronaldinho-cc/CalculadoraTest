@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pe.edu.vallegrande.calculadora.CalculadoraTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 s - in pe.edu.vallegrande.calculadora.CalculadoraTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 s - in pe.edu.vallegrande.calculadora.CalculadoraTest

@@ -52,4 +52,4 @@ public class Calculadora {
         System.out.println("Resultado de raiz cuadrada: " + resultado);
         return resultado;
     }
-}
+} 

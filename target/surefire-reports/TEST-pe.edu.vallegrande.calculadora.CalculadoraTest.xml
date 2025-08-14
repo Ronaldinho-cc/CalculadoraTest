@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.237" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.127" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200\surefirebooter-20250814120645399_3.jar C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200 2025-08-14T12-06-44_437-jvmRun1 surefire-20250814120645399_1tmp surefire_0-20250814120645399_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire637385750291478024\surefirebooter-20250814123032293_3.jar C:\Users\GIGABYTE\AppData\Local\Temp\surefire637385750291478024 2025-08-14T12-30-31_784-jvmRun1 surefire-20250814123032293_1tmp surefire_0-20250814123032293_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\calculadora\target\test-classes;D:\calculadora\target\classes;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200\surefirebooter-20250814120645399_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire637385750291478024\surefirebooter-20250814123032293_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testPorcentajeNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.113">
+  <testcase name="testPorcentajeNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.051">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando porcentaje: 25 de 200 = 12.5%
@@ -64,7 +64,7 @@ Metodo porcentaje()
 Resultado del porcentaje: 12.5%
 ]]></system-out>
   </testcase>
-  <testcase name="testSumar" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.006">
+  <testcase name="testSumar" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.004">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando sumar: 5 + 3 = 8
@@ -72,7 +72,7 @@ Metodo sumar()
 Resultado de sumar: 8
 ]]></system-out>
   </testcase>
-  <testcase name="testMultiplicarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.005">
+  <testcase name="testMultiplicarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.004">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando multiplicar: 4 * 3 = 12
@@ -80,7 +80,7 @@ Metodo multiplicar()
 Resultado de multiplicar: 12
 ]]></system-out>
   </testcase>
-  <testcase name="testRestarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.003">
+  <testcase name="testRestarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando restar: 10 - 4 = 6
@@ -88,7 +88,7 @@ Metodo restar()
 Resultado de restar: 6
 ]]></system-out>
   </testcase>
-  <testcase name="testMultiplicarConCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.005">
+  <testcase name="testMultiplicarConCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando multiplicar: 4 * 0 = 0
@@ -112,14 +112,14 @@ Metodo restar()
 Resultado de restar: -2
 ]]></system-out>
   </testcase>
-  <testcase name="testDividirPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
+  <testcase name="testDividirPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.008">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando dividir entre cero - excepcion esperada
 Metodo dividir()
 ]]></system-out>
   </testcase>
-  <testcase name="testDividirNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0">
+  <testcase name="testDividirNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.003">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando dividir: 10 / 2 = 5
@@ -127,7 +127,7 @@ Metodo dividir()
 Resultado de dividir: 5
 ]]></system-out>
   </testcase>
-  <testcase name="testRaizCuadradaPositivo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+  <testcase name="testRaizCuadradaPositivo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando raiz cuadrada de 16 = 4
@@ -135,14 +135,14 @@ Metodo raizCuadrada()
 Resultado de raiz cuadrada: 4.0
 ]]></system-out>
   </testcase>
-  <testcase name="testRaizCuadradaNegativo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.006">
+  <testcase name="testRaizCuadradaNegativo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando raiz cuadrada negativa - excepcion esperada
 Metodo raizCuadrada()
 ]]></system-out>
   </testcase>
-  <testcase name="testPorcentajeDivisionPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+  <testcase name="testPorcentajeDivisionPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
     <system-out><![CDATA[
 ===== Iniciando prueba =====
 Probando porcentaje con total = 0 - excepcion esperada
