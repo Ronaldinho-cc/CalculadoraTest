@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.237" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\calculadora\target\test-classes;D:\calculadora\target\classes;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200\surefirebooter-20250814120645399_3.jar C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200 2025-08-14T12-06-44_437-jvmRun1 surefire-20250814120645399_1tmp surefire_0-20250814120645399_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\calculadora\target\test-classes;D:\calculadora\target\classes;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\GIGABYTE\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\GIGABYTE"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\calculadora"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\GIGABYTE\AppData\Local\Temp\surefire15449730314290577200\surefirebooter-20250814120645399_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="GIGABYTE"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\GIGABYTE\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\GIGABYTE\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="D:\calculadora"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe;C:\Program Files (x86)\oh-my-posh\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\dev\flutter\bin;C:\Program Files\nodejs;C:\Program Files\Azure Data Studio\bin;C:\Users\GIGABYTE\AppData\Roaming\Python\Python312\Scripts;C:\Users\GIGABYTE\AppData\Roaming\Python\Python312;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Users\GIGABYTE\.console-ninja\.bin;C:\Program Files\WindowsPowerShell;C:\Users\GIGABYTE\AppData\Local\GitHubDesktop;C:\Users\GIGABYTE\AppData\Roaming\npm;C:\Windows\System32;C:\Users\GIGABYTE\AppData\Local\Android\Sdk;D:\ngrok;D:\Wallet_oracle;C:\xampp\mysql\bin;c:\Users\GIGABYTE\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17;D:\maven-mvnd-1.0.2-windows-amd64\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Kubernetes\Minikube;C:\Users\GIGABYTE\AppData\Local\WhatsApp;C:\Users\GIGABYTE\Downloads\platform-tools-latest-windows\platform-tools;C:\Users\GIGABYTE\AppData\Local\Programs\oh-my-posh\bin\;C:\Users\GIGABYTE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\GIGABYTE\AppData\Local\Programs\oh-my-posh\bin\C:\Users\GIGABYTE\AppData\Local\Programs\oh-my-posh\bin\;C:\Users\GIGABYTE\.console-ninja\.bin;C:\Program Files\WindowsPowerShell;C:\Users\GIGABYTE\AppData\Local\GitHubDesktop\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\GIGABYTE\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\dev\flutter\bin;C:\Windows\System32;C:\Users\GIGABYTE\AppData\Local\Android\Sdk;C:\Users\GIGABYTE\AppData\Roaming\npm;C:\Users\GIGABYTE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker\Docker\resources\bin;C:\app\GIGABYTE\product\21c\dbhomeXE\bin;D:\ngrok;D:\Wallet_oracle;C:\xampp\mysql\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17;D:\maven-mvnd-1.0.2-windows-amd64\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\GIGABYTE\AppData\Local\WhatsApp;C:\Users\GIGABYTE\Downloads\platform-tools-latest-windows\platform-tools;C:\oh-my-posh;C:\Users\GIGABYTE\AppData\Local\Microsoft\WindowsApps;C:\Users\GIGABYTE\AppData\Local\Microsoft\WinGet\Links;C:\Users\GIGABYTE\AppData\Local\Microsoft\WinGet\Packages\sharkdp.bat_Microsoft.Winget.Source_8wekyb3d8bbwe\bat-v0.25.0-x86_64-pc-windows-msvc;C:\Users\GIGABYTE\AppData\Local\Microsoft\WinGet\Packages\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\ripgrep-14.1.1-x86_64-pc-windows-msvc;C:\Users\GIGABYTE\AppData\Local\Microsoft\WinGet\Packages\lsd-rs.lsd_Microsoft.Winget.Source_8wekyb3d8bbwe\lsd-v1.1.5-x86_64-pc-windows-msvc;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPorcentajeNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.113">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando porcentaje: 25 de 200 = 12.5%
+Metodo porcentaje()
+Resultado del porcentaje: 12.5%
+]]></system-out>
+  </testcase>
+  <testcase name="testSumar" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.006">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando sumar: 5 + 3 = 8
+Metodo sumar()
+Resultado de sumar: 8
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.005">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando multiplicar: 4 * 3 = 12
+Metodo multiplicar()
+Resultado de multiplicar: 12
+]]></system-out>
+  </testcase>
+  <testcase name="testRestarPositivos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.003">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando restar: 10 - 4 = 6
+Metodo restar()
+Resultado de restar: 6
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarConCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.005">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando multiplicar: 4 * 0 = 0
+Metodo multiplicar()
+Resultado de multiplicar: 0
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicarNegativos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando multiplicar: -2 * 3 = -6
+Metodo multiplicar()
+Resultado de multiplicar: -6
+]]></system-out>
+  </testcase>
+  <testcase name="testRestarNegativos" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando restar: -5 - (-3) = -2
+Metodo restar()
+Resultado de restar: -2
+]]></system-out>
+  </testcase>
+  <testcase name="testDividirPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.002">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando dividir entre cero - excepcion esperada
+Metodo dividir()
+]]></system-out>
+  </testcase>
+  <testcase name="testDividirNormal" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando dividir: 10 / 2 = 5
+Metodo dividir()
+Resultado de dividir: 5
+]]></system-out>
+  </testcase>
+  <testcase name="testRaizCuadradaPositivo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando raiz cuadrada de 16 = 4
+Metodo raizCuadrada()
+Resultado de raiz cuadrada: 4.0
+]]></system-out>
+  </testcase>
+  <testcase name="testRaizCuadradaNegativo" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.006">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando raiz cuadrada negativa - excepcion esperada
+Metodo raizCuadrada()
+]]></system-out>
+  </testcase>
+  <testcase name="testPorcentajeDivisionPorCero" classname="pe.edu.vallegrande.calculadora.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[
+===== Iniciando prueba =====
+Probando porcentaje con total = 0 - excepcion esperada
+Metodo porcentaje()
+]]></system-out>
+  </testcase>
+</testsuite>
